@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>The Fitness World — Lohar Pul, New Town, Kolkata | 24/7 Premium Gym &amp; Fitness Arena</title>
+  <meta name="description" content="The Fitness World (Lohar Pul, Newtown, Kolkata). Rated 4.9★ on Google (99+ reviews). Open 24/7, 365 days. Weight training, CrossFit, Kickboxing, Zumba, Aerobics, Personal Coaching &amp; Free Diet Charts.">
+  <meta name="keywords" content="The Fitness World, gym in New Town, gym near Lohar Pul, 24 hour gym Kolkata, best gym in Newtown Action Area 1, Thakdari Road gym, CrossFit Kolkata, Zumba Newtown">
+  
+  <!-- OPEN GRAPH / SOCIAL -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Fitness World — Forge Your Strongest Self | Lohar Pul, Newtown">
+  <meta property="og:description" content="Newtown's premier 24/7 fitness center. 4.9★ Google rated. Open 365 days. Weight training, CrossFit, Kickboxing, Zumba &amp; 100% Free Diet Charts.">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- LENIS SMOOTH SCROLL -->
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+</head>
+<body>
+
+<!-- MOUSE SPOTLIGHT GLOW -->
+<div class="mouse-spotlight" id="mouse-spotlight" aria-hidden="true"></div>
+
+<!-- FILM GRAIN NOISE OVERLAY -->
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<!-- CINEMATIC PRELOADER SCREEN -->
+<div class="preloader" id="preloader">
+  <div class="preloader-center-content">
+    <div class="preloader-brand">THE FITNESS<span>WORLD</span></div>
+    <div class="preloader-subtag">LOHAR PUL · NEW TOWN, KOLKATA</div>
+    <div class="preloader-counter" id="preloader-counter">INITIALIZING // 00%</div>
+    <div class="preloader-bar-bg">
+      <div class="preloader-bar-fill" id="preloader-bar-fill"></div>
+    </div>
+  </div>
+</div>
+
+<div class="tfw-root">
+
+  <!-- TOP ANNOUNCEMENT TICKER -->
+  <div class="top-ticker">
+    <span class="top-ticker-pill">● 24/7 LIVE</span>
+    <span>OPEN 24 HOURS · 365 DAYS · 4.9★ GOOGLE · NEWTOWN</span>
+  </div>
+
+  <!-- STICKY GLASS NAVIGATION -->
+  <nav class="tfw-nav" id="tfw-main-nav">
+    <div class="nav-brand-group">
+      <a href="#" class="tfw-logo" aria-label="The Fitness World Home">
+        <div class="logo-main">THE FITNESS<span>WORLD</span></div>
+        <div class="logo-tag">LOHAR PUL · NEW TOWN</div>
+      </a>
+    </div>
+
+    <ul class="tfw-nav-links" id="tfw-nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Programs</a></li>
+      <li><a href="#gallery">Arena</a></li>
+      <li><a href="#transformations">Results</a></li>
+      <li><a href="#trainers">Coaches</a></li>
+      <li><a href="#calculator">Diet Calc</a></li>
+      <li><a href="#pricing">Memberships</a></li>
+      <li><a href="#location">Location</a></li>
+    </ul>
+
+    <div class="tfw-nav-actions">
+      <!-- THEME TOGGLE -->
+      <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Light/Dark Theme">
+        ☀️
+      </button>
+      <a href="tel:09775995300" class="btn-nav-call" aria-label="Call The Fitness World">
+        <span>📞</span>
+        <span>097759 95300</span>
+      </a>
+      <button type="button" class="btn-nav-trial" onclick="openModal('trial-modal')">
+        <span>Free Pass ⚡</span>
+      </button>
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO CINEMATIC SECTION - CENTER ALIGNED -->
+  <div class="hero-wrapper">
+    <div class="hero-container">
+      
+      <div class="hero-content">
+        <div class="hero-kicker-row">
+          <div class="hero-tag-badge">⚡ 24/7/365 ARENA</div>
+          <div class="hero-rating-badge">⭐ 4.9★ GOOGLE (99+ REVIEWS)</div>
+          <div class="hero-tag-badge" style="color: #9ca3af; border-color: rgba(255,255,255,0.2);">📍 LOHAR PUL, NEW TOWN</div>
+        </div>
+
+        <h1 class="hero-title">
+          FORGE YOUR <span class="highlight-red">STRONGEST SELF</span> IN <span class="highlight-outline">NEW TOWN</span>.
+        </h1>
+
+        <p class="hero-subhead">
+          Newtown's highest-rated fitness arena. Imported biomechanical machinery, certified coaches, functional CrossFit arena, Kickboxing, Zumba &amp; 100% free customized nutrition charts.
+        </p>
+
+        <div class="hero-cta-group">
+          <button type="button" class="btn-hero-primary" onclick="openModal('trial-modal')">
+            <span>Claim 1-Day Free Pass</span>
+            <span>⚡</span>
+          </button>
+          <a href="#pricing" class="btn-hero-ghost">
+            <span>View Memberships</span>
+            <span>↓</span>
+          </a>
+          <a href="tel:09775995300" class="btn-hero-ghost" style="border-color: rgba(245, 158, 11, 0.4); color: var(--accent-gold);">
+            <span>📞 097759 95300</span>
+          </a>
+        </div>
+
+        <div class="hero-stats-banner">
+          <div class="stat-box">
+            <span class="stat-box-num">4.9★</span>
+            <span class="stat-box-label">Google Rating</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-box-num">24/7</span>
+            <span class="stat-box-label">365 Days Access</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-box-num">99+</span>
+            <span class="stat-box-label">Verified Reviews</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-box-num">100%</span>
+            <span class="stat-box-label">Free Diet Charts</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3D TILT HERO LIVE CARD -->
+      <div class="hero-visual-card" data-tilt>
+        <div class="live-card-header">
+          <div>
+            <div style="font-family: var(--font-condensed); font-size: 20px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.04em;">
+              THE FITNESS WORLD ARENA
+            </div>
+            <div style="font-family: var(--font-mono); font-size: 10px; color: #9ca3af; margin-top: 2px;">
+              CN129, THAKDARI RD · ACTION AREA I
+            </div>
+          </div>
+          <div class="live-indicator">● LIVE: OPEN NOW</div>
+        </div>
+
+        <div class="hero-features-grid">
+          <div class="hero-feature-pill">
+            <div style="font-size: 14px; color: var(--accent-red); font-weight: 800; font-family: var(--font-mono);">[01]</div>
+            <div class="hero-feature-title">Heavy Iron Arena</div>
+            <div class="hero-feature-sub">Biomechanical rigs</div>
+          </div>
+          <div class="hero-feature-pill">
+            <div style="font-size: 14px; color: var(--accent-gold); font-weight: 800; font-family: var(--font-mono);">[02]</div>
+            <div class="hero-feature-title">CrossFit &amp; Combat</div>
+            <div class="hero-feature-sub">Conditioning drills</div>
+          </div>
+          <div class="hero-feature-pill">
+            <div style="font-size: 14px; color: var(--accent-red); font-weight: 800; font-family: var(--font-mono);">[03]</div>
+            <div class="hero-feature-title">Zumba &amp; Studio</div>
+            <div class="hero-feature-sub">High-energy batches</div>
+          </div>
+          <div class="hero-feature-pill">
+            <div style="font-size: 14px; color: var(--accent-gold); font-weight: 800; font-family: var(--font-mono);">[04]</div>
+            <div class="hero-feature-title">Free Custom Diet</div>
+            <div class="hero-feature-sub">Tailored macro plan</div>
+          </div>
+        </div>
+
+        <div class="hero-card-bottom">
+          <div>
+            <div style="font-size: 12px; font-weight: 800; color: #ffffff;">Ready to Start Today?</div>
+            <div style="font-size: 10px; color: var(--accent-red); font-family: var(--font-mono);">Instant response on WhatsApp</div>
+          </div>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20inquire%20about%20gym%20membership." target="_blank" rel="noopener noreferrer" class="btn-nav-trial" style="padding: 7px 14px; font-size: 11px;">
+            <span>💬 WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- INFINITE MARQUEE -->
+  <div class="marquee-wrapper">
+    <div class="marquee-content">
+      <div class="marquee-item"><span class="marquee-dot"></span> WEIGHT TRAINING</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> CROSSFIT ARENA</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> KICKBOXING</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> ZUMBA &amp; AEROBICS</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> CYCLING &amp; SPINNING</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> HIIT CLASSES</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> 1-ON-1 COACHING</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> FREE DIET CHARTS</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> 24/7 OPEN 365 DAYS</div>
+    </div>
+    <div class="marquee-content" aria-hidden="true">
+      <div class="marquee-item"><span class="marquee-dot"></span> WEIGHT TRAINING</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> CROSSFIT ARENA</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> KICKBOXING</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> ZUMBA &amp; AEROBICS</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> CYCLING &amp; SPINNING</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> HIIT CLASSES</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> 1-ON-1 COACHING</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> FREE DIET CHARTS</div>
+      <div class="marquee-item"><span class="marquee-dot"></span> 24/7 OPEN 365 DAYS</div>
+    </div>
+  </div>
+
+  <!-- CHAPTER 01: ABOUT & MANIFESTO -->
+  <section class="tfw-section" id="about">
+    <div class="chapter-header">
+      <div class="chapter-badge">
+        <span class="idx">[ 01 ]</span>
+        <span>// THE MANIFESTO</span>
+      </div>
+      <h2 class="chapter-title">BUILT IN NEW TOWN. FORGED BY THE GRIND.</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          Located at Thakdari Road near Loha Pul in Action Area I, <strong>The Fitness World</strong> is Newtown's most celebrated 24/7 fitness center. We built an environment where beginners feel empowered, athletes push past plateaus, and everyone has access to professional equipment and elite coaching.
+        </p>
+        <p>
+          With <strong>24/7/365 non-stop access</strong>, your workout never has to wait for gym opening hours. Plus, every membership includes personalized form guidance from certified floor trainers and free science-backed nutrition diet charts.
+        </p>
+
+        <div class="about-highlights">
+          <div class="about-highlight-card">
+            <div class="counter-num" data-target="4.9">4.9</div>
+            <div class="counter-label">Google Rating (99+ Reviews)</div>
+          </div>
+          <div class="about-highlight-card">
+            <div class="counter-num" data-target="24" data-suffix="/7">24/7</div>
+            <div class="counter-label">Open 365 Days a Year</div>
+          </div>
+          <div class="about-highlight-card">
+            <div class="counter-num" data-target="9" data-suffix="+">9+</div>
+            <div class="counter-label">Disciplines Under One Roof</div>
+          </div>
+          <div class="about-highlight-card">
+            <div class="counter-num" data-target="100" data-suffix="%">100%</div>
+            <div class="counter-label">Certified Coach Support</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-photo-wrapper" data-tilt>
+        <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=2070&auto=format&fit=crop" alt="The Fitness World Newtown Arena" class="about-photo-img">
+        <div class="about-photo-tag">
+          <div style="font-family: var(--font-mono); font-size: 10px; color: var(--accent-gold); text-transform: uppercase; font-weight: 800; margin-bottom: 2px;">// THAKDARI ROAD, ACTION AREA 1</div>
+          <div style="font-family: var(--font-condensed); font-size: 20px; color: #ffffff; text-transform: uppercase;">12,000 SQ.FT OF RAW IRON &amp; RECOVERY</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 02: SERVICES -->
+  <section class="tfw-section" id="services" style="border-top: 1px solid var(--border-subtle);">
+    <div class="chapter-header">
+      <div class="chapter-badge">
+        <span class="idx">[ 02 ]</span>
+        <span>// DISCIPLINES</span>
+      </div>
+      <h2 class="chapter-title">9 WAYS TO FORGE YOUR PHYSIQUE</h2>
+      <p class="chapter-sub">
+        Comprehensive training regimes crafted to build explosive strength, cardiovascular stamina, agility, and sustainable fat loss.
+      </p>
+    </div>
+
+    <div class="services-tabs">
+      <button type="button" class="tab-btn active" data-category="all">All Disciplines</button>
+      <button type="button" class="tab-btn" data-category="strength">Weight &amp; Strength</button>
+      <button type="button" class="tab-btn" data-category="crossfit">CrossFit &amp; HIIT</button>
+      <button type="button" class="tab-btn" data-category="combat">Kickboxing</button>
+      <button type="button" class="tab-btn" data-category="studio">Zumba &amp; Aerobics</button>
+      <button type="button" class="tab-btn" data-category="coaching">Personal Coaching</button>
+    </div>
+
+    <div class="services-grid">
+
+      <!-- SERVICE 1 -->
+      <div class="service-card" data-category="strength" data-tilt>
+        <div class="service-photo-box">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop" alt="Weight Training" class="service-photo-img">
+          <div class="service-photo-overlay"></div>
+          <div class="service-badge-pill">Heavy Iron</div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Weight Training</h3>
+          <p class="service-desc">
+            Biomechanical strength equipment, Olympic power racks, free weights, cable crossovers, and dumbbell sets up to 50kg for pure hypertrophy and muscle building.
+          </p>
+          <div class="service-perks-list">
+            <div class="service-perk-item">⚡ Imported biomechanical plates &amp; bars</div>
+            <div class="service-perk-item">⚡ Form assistance by floor trainers</div>
+            <div class="service-perk-item">⚡ Progressive overload tracking</div>
+          </div>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20know%20more%20about%20Weight%20Training." target="_blank" rel="noopener noreferrer" class="btn-service-action">Inquire on WhatsApp ↗</a>
+        </div>
+      </div>
+
+      <!-- SERVICE 2 -->
+      <div class="service-card" data-category="crossfit" data-tilt>
+        <div class="service-photo-box">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop" alt="CrossFit &amp; HIIT" class="service-photo-img">
+          <div class="service-photo-overlay"></div>
+          <div class="service-badge-pill">Metabolic Burn</div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">CrossFit &amp; Functional HIIT</h3>
+          <p class="service-desc">
+            High-intensity metabolic conditioning using battle ropes, plyometric boxes, kettlebell circuits, and sled tracks to incinerate calories and build endurance.
+          </p>
+          <div class="service-perks-list">
+            <div class="service-perk-item">⚡ Full-body functional movement drills</div>
+            <div class="service-perk-item">⚡ Heart rate zone stamina building</div>
+            <div class="service-perk-item">⚡ Daily changing workout routines</div>
+          </div>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20know%20more%20about%20CrossFit%20and%20HIIT." target="_blank" rel="noopener noreferrer" class="btn-service-action">Inquire on WhatsApp ↗</a>
+        </div>
+      </div>
+
+      <!-- SERVICE 3 -->
+      <div class="service-card" data-category="combat" data-tilt>
+        <div class="service-photo-box">
+          <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=2070&auto=format&fit=crop" alt="Kickboxing" class="service-photo-img">
+          <div class="service-photo-overlay"></div>
+          <div class="service-badge-pill">Combat Conditioning</div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Kickboxing</h3>
+          <p class="service-desc">
+            Cardio combat conditioning, punch-kick pad routines, footwork agility, and core explosive power. Excellent for self-defense and stress relief.
+          </p>
+          <div class="service-perks-list">
+            <div class="service-perk-item">⚡ Heavy bag &amp; focus mitt combinations</div>
+            <div class="service-perk-item">⚡ Agility, reflex &amp; core strengthening</div>
+            <div class="service-perk-item">⚡ Beginner-friendly coach guidance</div>
+          </div>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20know%20more%20about%20Kickboxing." target="_blank" rel="noopener noreferrer" class="btn-service-action">Inquire on WhatsApp ↗</a>
+        </div>
+      </div>
+
+      <!-- SERVICE 4 -->
+      <div class="service-card" data-category="studio" data-tilt>
+        <div class="service-photo-box">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=2070&auto=format&fit=crop" alt="Zumba &amp; Aerobics" class="service-photo-img">
+          <div class="service-photo-overlay"></div>
+          <div class="service-badge-pill">Group Studio</div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Zumba &amp; Aerobics</h3>
+          <p class="service-desc">
+            Rhythmic high-energy dance workouts led by certified trainers. Burns 600+ calories per session while boosting coordination and mood.
+          </p>
+          <div class="service-perks-list">
+            <div class="service-perk-item">⚡ Upbeat music &amp; group camaraderie</div>
+            <div class="service-perk-item">⚡ Cardiovascular endurance &amp; fat burn</div>
+            <div class="service-perk-item">⚡ Weekend special high-energy batches</div>
+          </div>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20know%20more%20about%20Zumba%20and%20Aerobics." target="_blank" rel="noopener noreferrer" class="btn-service-action">Inquire on WhatsApp ↗</a>
+        </div>
+      </div>
+
+      <!-- SERVICE 5 -->
+      <div class="service-card" data-category="studio" data-tilt>
+        <div class="service-photo-box">
+          <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?q=80&w=2070&auto=format&fit=crop" alt="Cycling &amp; Spinning" class="service-photo-img">
+          <div class="service-photo-overlay"></div>
+          <div class="service-badge-pill">Cardio Zone</div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Cycling &amp; Spinning</h3>
+          <p class="service-desc">
+            Stationary RPM bikes and spin tracks engineered for high-cadence endurance, interval sprints, and leg power development.
+          </p>
+          <div class="service-perks-list">
+            <div class="service-perk-item">⚡ Custom resistance &amp; cadence control</div>
+            <div class="service-perk-item">⚡ Low-impact on joints, high caloric burn</div>
+            <div class="service-perk-item">⚡ Heart rate telemetry monitors</div>
+          </div>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20know%20more%20about%20Cycling." target="_blank" rel="noopener noreferrer" class="btn-service-action">Inquire on WhatsApp ↗</a>
+        </div>
+      </div>
+
+      <!-- SERVICE 6 -->
+      <div class="service-card" data-category="coaching" data-tilt>
+        <div class="service-photo-box">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop" alt="Personal Training &amp; Nutrition" class="service-photo-img">
+          <div class="service-photo-overlay"></div>
+          <div class="service-badge-pill">1-on-1 Elite</div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Personal Coaching &amp; Nutrition</h3>
+          <p class="service-desc">
+            Dedicated 1-on-1 certified personal coaching tailored to your body composition. Includes 100% customized macro diet charts and weekly progress check-ins.
+          </p>
+          <div class="service-perks-list">
+            <div class="service-perk-item">⚡ Personalized calorie &amp; protein blueprint</div>
+            <div class="service-perk-item">⚡ Bi-weekly body fat % measurements</div>
+            <div class="service-perk-item">⚡ Targeted body transformations</div>
+          </div>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20book%20a%20Personal%20Trainer%20and%20Diet%20Plan." target="_blank" rel="noopener noreferrer" class="btn-service-action">Inquire on WhatsApp ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CHAPTER 03: ARENA GALLERY WITH LIGHTBOX -->
+  <section class="tfw-section" id="gallery" style="border-top: 1px solid var(--border-subtle);">
+    <div class="chapter-header">
+      <div class="chapter-badge">
+        <span class="idx">[ 03 ]</span>
+        <span>// THE ARENA</span>
+      </div>
+      <h2 class="chapter-title">INSIDE THE 24/7 NEWTOWN FACILITY</h2>
+      <p class="chapter-sub">
+        Explore our training floor, Olympic platforms, cardio studio, and locker amenities. Click any photo to preview in high resolution.
+      </p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=2070&auto=format&fit=crop')">
+        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=2070&auto=format&fit=crop" alt="Heavy Free Weights Zone" class="gallery-img">
+        <div class="gallery-overlay">
+          <div class="gallery-caption">Heavy Free Weights Zone</div>
+        </div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2069&auto=format&fit=crop')">
+        <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2069&auto=format&fit=crop" alt="Cardio &amp; Spin Deck" class="gallery-img">
+        <div class="gallery-overlay">
+          <div class="gallery-caption">Cardio &amp; Spin Deck</div>
+        </div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop')">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop" alt="Power Racks &amp; Platforms" class="gallery-img">
+        <div class="gallery-overlay">
+          <div class="gallery-caption">Power Racks &amp; Platforms</div>
+        </div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=2069&auto=format&fit=crop')">
+        <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=2069&auto=format&fit=crop" alt="Functional Turf &amp; Sleds" class="gallery-img">
+        <div class="gallery-overlay">
+          <div class="gallery-caption">Functional Turf &amp; Sleds</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 04: BEFORE / AFTER TRANSFORMATION COMPARISON -->
+  <section class="transformation-section" id="transformations">
+    <div class="transform-grid">
+      <div>
+        <div class="chapter-badge">
+          <span class="idx">[ 04 ]</span>
+          <span>// MEASURABLE RESULTS</span>
+        </div>
+        <h2 class="chapter-title">TRANSFORMATIONS FORGED IN IRON</h2>
+        <p style="color: var(--text-muted); font-size: 14.5px; line-height: 1.65; margin-bottom: 24px;">
+          Drag the interactive slider to view real transformations from our members in New Town. Combined with certified personal coaching and customized nutrition charts, our members achieve visible body recomposition in 90 days.
+        </p>
+
+        <div class="transform-stats-box">
+          <div class="transform-stat-pill">
+            <div>
+              <div style="font-size: 12.5px; font-weight: 800; color: var(--text-primary);">Average 90-Day Fat Loss</div>
+              <div style="font-size: 11px; color: var(--text-muted);">Calorie deficit &amp; HIIT protocol</div>
+            </div>
+            <div style="font-family: var(--font-display); font-size: 26px; color: var(--accent-red);">8–14 KG</div>
+          </div>
+
+          <div class="transform-stat-pill">
+            <div>
+              <div style="font-size: 12.5px; font-weight: 800; color: var(--text-primary);">Average Muscle Hypertrophy</div>
+              <div style="font-size: 11px; color: var(--text-muted);">Progressive overload strength</div>
+            </div>
+            <div style="font-family: var(--font-display); font-size: 26px; color: var(--accent-gold);">+4.5 KG</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- INTERACTIVE COMPARISON SLIDER -->
+      <div class="comparison-container" id="comparison-container">
+        <div class="comparison-before">
+          <div class="comparison-badge" style="background: rgba(0,0,0,0.85); border: 1px solid var(--border-medium);">
+            BEFORE · DAY 01
+          </div>
+        </div>
+        <div class="comparison-after" id="comparison-after">
+          <div class="comparison-badge" style="background: var(--accent-red);">
+            AFTER · 90 DAYS // RECOMPOSED
+          </div>
+        </div>
+        <div class="comparison-slider-handle" id="comparison-slider-handle">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3">
+            <path d="M18 8L22 12L18 16"></path>
+            <path d="M6 8L2 12L6 16"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 05: COACHES WITH REAL ATHLETIC PHOTOGRAPHY -->
+  <section class="tfw-section" id="trainers" style="border-top: 1px solid var(--border-subtle);">
+    <div class="chapter-header">
+      <div class="chapter-badge">
+        <span class="idx">[ 05 ]</span>
+        <span>// THE COACHES</span>
+      </div>
+      <h2 class="chapter-title">LED BY CERTIFIED ELITE COACHES</h2>
+      <p class="chapter-sub">
+        Every coach at The Fitness World brings national certifications (K11, ACE, ACSM) and proven transformation records.
+      </p>
+    </div>
+
+    <div class="trainers-grid">
+      <div class="trainer-card" data-tilt>
+        <div class="trainer-photo-box">
+          <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=2070&auto=format&fit=crop" alt="Coach Vikram Sen" class="trainer-photo-img">
+        </div>
+        <div class="trainer-card-body">
+          <h3 class="trainer-name">Vikram Sen</h3>
+          <div class="trainer-role">Head Strength &amp; Conditioning</div>
+          <p class="trainer-certs">ACE Certified · 8+ Years Coaching · 250+ Transformations</p>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20book%20a%20session%20with%20Coach%20Vikram." target="_blank" rel="noopener noreferrer" class="btn-book-trainer">
+            Book Session on WhatsApp ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="trainer-card" data-tilt>
+        <div class="trainer-photo-box">
+          <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=2070&auto=format&fit=crop" alt="Coach Ananya Roy" class="trainer-photo-img">
+        </div>
+        <div class="trainer-card-body">
+          <h3 class="trainer-name">Ananya Roy</h3>
+          <div class="trainer-role">CrossFit &amp; Zumba Master Trainer</div>
+          <p class="trainer-certs">Certified Zumba Specialist · HIIT Conditioning Expert</p>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20join%20Coach%20Ananya's%20classes." target="_blank" rel="noopener noreferrer" class="btn-book-trainer">
+            Book Session on WhatsApp ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="trainer-card" data-tilt>
+        <div class="trainer-photo-box">
+          <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2069&auto=format&fit=crop" alt="Coach Sourav Das" class="trainer-photo-img">
+        </div>
+        <div class="trainer-card-body">
+          <h3 class="trainer-name">Sourav Das</h3>
+          <div class="trainer-role">Chief Nutritionist &amp; Hypertrophy Coach</div>
+          <p class="trainer-certs">K11 Certified · Sports Dietetics · Macro Formulation</p>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20a%20Diet%20Consultation%20with%20Coach%20Sourav." target="_blank" rel="noopener noreferrer" class="btn-book-trainer">
+            Book Session on WhatsApp ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 06: CALCULATOR -->
+  <section class="calculator-section" id="calculator">
+    <div class="calc-grid">
+      <div>
+        <div class="chapter-badge">
+          <span class="idx">[ 06 ]</span>
+          <span>// TRANSFORMATION ENGINE</span>
+        </div>
+        <h2 class="chapter-title">CALCULATE YOUR TARGET</h2>
+        <p style="color: var(--text-muted); font-size: 13.5px; line-height: 1.65; margin-bottom: 22px;">
+          Find your exact BMI, daily caloric maintenance target, and optimal protein intake. Claim a 100% Free Custom Diet Chart prepared by our Newtown certified coaches!
+        </p>
+
+        <form id="fitness-calc-form" class="calc-form-box">
+          <div class="form-group">
+            <label for="calc-height">Height (in CM)</label>
+            <input type="number" id="calc-height" class="form-input" placeholder="e.g. 175" required min="100" max="250">
+          </div>
+
+          <div class="form-group">
+            <label for="calc-weight">Weight (in KG)</label>
+            <input type="number" id="calc-weight" class="form-input" placeholder="e.g. 72" required min="30" max="200">
+          </div>
+
+          <div class="form-group">
+            <label for="calc-goal">Your Target Goal</label>
+            <select id="calc-goal" class="form-select">
+              <option value="muscle">Hypertrophy &amp; Muscle Gain</option>
+              <option value="fatloss">Fat Loss &amp; Shredding</option>
+              <option value="stamina">CrossFit Stamina &amp; Endurance</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn-hero-primary" style="width: 100%; justify-content: center; margin-top: 8px;">
+            <span>Calculate Metrics ⚡</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="calc-result-box" id="calc-result-box">
+        <div style="text-align: center; color: var(--text-muted);">
+          <div style="font-size: 32px; margin-bottom: 10px;">📊</div>
+          <div style="font-family: var(--font-condensed); font-size: 22px; color: var(--text-primary); text-transform: uppercase; margin-bottom: 4px;">
+            Your Metrics Will Appear Here
+          </div>
+          <div style="font-size: 12.5px;">Enter your height, weight, and goal to calculate your target energy and claim your free diet plan.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 07: 4-STEP PROTOCOL -->
+  <section class="tfw-section" id="protocol" style="border-top: 1px solid var(--border-subtle);">
+    <div class="chapter-header">
+      <div class="chapter-badge">
+        <span class="idx">[ 07 ]</span>
+        <span>// THE PROTOCOL</span>
+      </div>
+      <h2 class="chapter-title">FROM DAY ONE TO FOREVER STRONG</h2>
+      <p class="chapter-sub">
+        Our seamless 4-step transformation blueprint guarantees structured progress without confusion.
+      </p>
+    </div>
+
+    <div class="protocol-timeline">
+      <div class="protocol-step">
+        <div class="protocol-step-num">01</div>
+        <h3 class="protocol-step-title">Free Body Assessment</h3>
+        <p class="protocol-step-desc">Comprehensive body composition analysis, posture check, and personalized goal alignment.</p>
+      </div>
+
+      <div class="protocol-step">
+        <div class="protocol-step-num">02</div>
+        <h3 class="protocol-step-title">Custom Workout &amp; Diet Plan</h3>
+        <p class="protocol-step-desc">100% free customized macro nutrition chart tailored to your vegetarian or non-vegetarian preferences.</p>
+      </div>
+
+      <div class="protocol-step">
+        <div class="protocol-step-num">03</div>
+        <h3 class="protocol-step-title">Guided Iron Execution</h3>
+        <p class="protocol-step-desc">Daily form correction, progressive overload coaching, and injury prevention on the floor.</p>
+      </div>
+
+      <div class="protocol-step">
+        <div class="protocol-step-num">04</div>
+        <h3 class="protocol-step-title">Measurable Recomposition</h3>
+        <p class="protocol-step-desc">Monthly scans, strength milestones, and guaranteed body transformation results.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 08: MEMBERSHIPS -->
+  <section class="tfw-section" id="pricing" style="border-top: 1px solid var(--border-subtle);">
+    <div class="chapter-header">
+      <div class="chapter-badge">
+        <span class="idx">[ 08 ]</span>
+        <span>// MEMBERSHIPS</span>
+      </div>
+      <h2 class="chapter-title">SIMPLE. TRANSPARENT. ZERO BS.</h2>
+      <p class="chapter-sub">
+        No hidden admission fees or maintenance charges. All plans include full 24/7 access, locker amenities, and coach floor guidance.
+      </p>
+    </div>
+
+    <div class="pricing-toggle-wrapper">
+      <div class="pricing-toggle">
+        <button type="button" class="pricing-tab active" data-duration="monthly">Monthly</button>
+        <button type="button" class="pricing-tab" data-duration="quarterly">3 Months</button>
+        <button type="button" class="pricing-tab" data-duration="halfYearly">6 Months</button>
+        <button type="button" class="pricing-tab" data-duration="annual">Annual (Best Value)</button>
+      </div>
+    </div>
+
+    <div class="pricing-grid">
+
+      <!-- PLAN 1: STANDARD -->
+      <div class="pricing-card" data-tilt>
+        <div class="plan-name">Standard Strength</div>
+        <div class="plan-desc">Access to the gym floor, weights, and basic cardio equipment.</div>
+
+        <div class="plan-price-row">
+          <span class="price-currency">₹</span>
+          <span class="price-amount" id="price-standard">1,500</span>
+          <span class="price-period" id="period-standard">per month</span>
+        </div>
+
+        <div id="savings-standard" style="color: var(--accent-gold); font-size: 11px; font-weight: 800; font-family: var(--font-mono); margin-top: -12px; margin-bottom: 12px; min-height: 14px;"></div>
+
+        <div class="plan-features-list">
+          <div class="plan-feature-item">24/7 Access 365 Days a Year</div>
+          <div class="plan-feature-item">Weight Training &amp; Strength Arena</div>
+          <div class="plan-feature-item">Cardio &amp; Treadmill Zone</div>
+          <div class="plan-feature-item">Locker &amp; Changing Room Access</div>
+          <div class="plan-feature-item">General Floor Trainer Guidance</div>
+        </div>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-plan-select" id="btn-plan-standard">
+          Join on WhatsApp ↗
+        </a>
+      </div>
+
+      <!-- PLAN 2: PRO (FEATURED) -->
+      <div class="pricing-card featured" data-tilt>
+        <div class="popular-badge-pill">Most Popular</div>
+        <div class="plan-name" style="color: var(--accent-red);">All-Access Pro</div>
+        <div class="plan-desc">Full gym access + all studio group classes &amp; customized nutrition plan.</div>
+
+        <div class="plan-price-row">
+          <span class="price-currency">₹</span>
+          <span class="price-amount" id="price-pro">2,500</span>
+          <span class="price-period" id="period-pro">per month</span>
+        </div>
+
+        <div id="savings-pro" style="color: var(--accent-gold); font-size: 11px; font-weight: 800; font-family: var(--font-mono); margin-top: -12px; margin-bottom: 12px; min-height: 14px;">Most Popular</div>
+
+        <div class="plan-features-list">
+          <div class="plan-feature-item">Everything in Standard Strength</div>
+          <div class="plan-feature-item">Zumba &amp; Aerobics Studio Classes</div>
+          <div class="plan-feature-item">CrossFit &amp; HIIT Daily Batches</div>
+          <div class="plan-feature-item">Kickboxing Combat Training</div>
+          <div class="plan-feature-item">100% Free Custom Diet Chart</div>
+          <div class="plan-feature-item">Monthly Body Composition Scan</div>
+        </div>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-plan-select" id="btn-plan-pro">
+          Join on WhatsApp ↗
+        </a>
+      </div>
+
+      <!-- PLAN 3: VIP -->
+      <div class="pricing-card" data-tilt>
+        <div class="plan-name">VIP Transformation</div>
+        <div class="plan-desc">Complete elite package including dedicated 1-on-1 personal coaching.</div>
+
+        <div class="plan-price-row">
+          <span class="price-currency">₹</span>
+          <span class="price-amount" id="price-vip">4,500</span>
+          <span class="price-period" id="period-vip">per month</span>
+        </div>
+
+        <div id="savings-vip" style="color: var(--accent-gold); font-size: 11px; font-weight: 800; font-family: var(--font-mono); margin-top: -12px; margin-bottom: 12px; min-height: 14px;">1-on-1 PT Included</div>
+
+        <div class="plan-features-list">
+          <div class="plan-feature-item">Everything in All-Access Pro</div>
+          <div class="plan-feature-item">Dedicated 1-on-1 Certified Personal Trainer</div>
+          <div class="plan-feature-item">Personalized Weekly Macro Rebalancing</div>
+          <div class="plan-feature-item">Priority Booking for Specialty Classes</div>
+          <div class="plan-feature-item">Direct Coach WhatsApp Support 24/7</div>
+        </div>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-plan-select" id="btn-plan-vip">
+          Join on WhatsApp ↗
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CHAPTER 09: REVIEWS -->
+  <section class="tfw-section" id="reviews" style="border-top: 1px solid var(--border-subtle);">
+    <div class="chapter-header">
+      <div class="chapter-badge">
+        <span class="idx">[ 09 ]</span>
+        <span>// VOICES</span>
+      </div>
+      <h2 class="chapter-title">REAL MEMBERS. REAL IRON. 4.9★ RATED.</h2>
+      <p class="chapter-sub">
+        Rated <strong>4.9 Out of 5 Stars</strong> across 99+ verified Google Reviews.
+      </p>
+    </div>
+
+    <div class="reviews-grid">
+      
+      <div class="review-card" data-tilt>
+        <div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            “Overall, a perfect place for beginners and regular fitness lovers. The equipment variety is outstanding and the 24/7 hours fit my work schedule perfectly.”
+          </p>
+        </div>
+        <div class="review-author-row">
+          <span class="author-name">Verified Member</span>
+          <span class="author-source">Google Review · 5.0★</span>
+        </div>
+      </div>
+
+      <div class="review-card" data-tilt>
+        <div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            “Clean atmosphere, supportive trainers, and great energy overall. Floor trainers are always attentive and make sure your form is 100% correct.”
+          </p>
+        </div>
+        <div class="review-author-row">
+          <span class="author-name">Newtown Resident</span>
+          <span class="author-source">Google Review · 5.0★</span>
+        </div>
+      </div>
+
+      <div class="review-card" data-tilt>
+        <div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            “A great place to work out with a friendly, supportive environment. Open 365 days near Loha Pul which makes it super convenient.”
+          </p>
+        </div>
+        <div class="review-author-row">
+          <span class="author-name">Fitness Enthusiast</span>
+          <span class="author-source">Google Review · 5.0★</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CHAPTER 10: LOCATION & CONTACT -->
+  <section class="tfw-section" id="location" style="border-top: 1px solid var(--border-subtle);">
+    <div class="contact-grid">
+      
+      <div class="location-card" data-tilt>
+        <div class="chapter-badge">
+          <span class="idx">[ 10 ]</span>
+          <span>// DROP IN</span>
+        </div>
+        <h3 class="location-title">THE FITNESS WORLD — LOHAR PUL</h3>
+        <p class="location-address">
+          <strong>CN129, Thakdari Rd, near LOHA PUL</strong><br>
+          Action Area I, Dhalipara, Newtown<br>
+          Kolkata, West Bengal 700102
+        </p>
+
+        <div style="margin-bottom: 22px;">
+          <div style="font-family: var(--font-mono); font-size: 10.5px; color: var(--text-subtle); text-transform: uppercase; font-weight: 700; margin-bottom: 4px;">Direct Phone Numbers:</div>
+          <div style="font-size: 16px; font-weight: 800; color: var(--accent-gold); font-family: var(--font-mono);">097759 95300 · 086536 80217</div>
+        </div>
+
+        <div class="contact-action-buttons">
+          <a href="tel:09775995300" class="btn-contact-primary">
+            <span>📞 Call Now</span>
+          </a>
+          <a href="https://maps.google.com/?q=The+Fitness+World+Lohar+Pul+Newtown+Kolkata" target="_blank" rel="noopener noreferrer" class="btn-contact-maps">
+            <span>🗺️ Directions</span>
+          </a>
+          <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20visit%20the%20gym." target="_blank" rel="noopener noreferrer" class="btn-contact-maps" style="color: var(--whatsapp-green); border-color: rgba(37, 211, 102, 0.4);">
+            <span>💬 WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="location-card" style="background: var(--bg-card);" data-tilt>
+        <div class="chapter-badge">
+          <span class="idx">[ TIMETABLE ]</span>
+          <span>// 365 DAYS</span>
+        </div>
+        <h3 class="location-title">NON-STOP GYM ACCESS</h3>
+        
+        <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;">
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px; font-size: 13px;">
+            <span style="color: var(--text-muted);">Monday – Sunday:</span>
+            <span style="color: var(--whatsapp-green); font-weight: 800; font-family: var(--font-mono);">Open 24 Hours</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px; font-size: 13px;">
+            <span style="color: var(--text-muted);">Public Holidays:</span>
+            <span style="color: var(--whatsapp-green); font-weight: 800; font-family: var(--font-mono);">Open 24 Hours</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 13px;">
+            <span style="color: var(--text-muted);">Trainer Floor Hours:</span>
+            <span style="color: var(--text-primary); font-weight: 700; font-family: var(--font-mono);">6:00 AM – 11:00 PM</span>
+          </div>
+        </div>
+
+        <button type="button" class="btn-hero-primary" style="width: 100%; justify-content: center;" onclick="openModal('trial-modal')">
+          <span>Book Free 1-Day Trial</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LUXURY FOOTER -->
+  <footer class="tfw-footer">
+    <div class="footer-container">
+      <div class="footer-top-row">
+        <div>
+          <div class="logo-main">THE FITNESS<span>WORLD</span></div>
+          <div class="logo-tag">LOHAR PUL · NEW TOWN, KOLKATA</div>
+        </div>
+        <div style="display: flex; gap: 16px; align-items: center; justify-content: center;">
+          <a href="tel:09775995300" style="color: var(--text-muted); text-decoration: none; font-size: 12.5px; font-weight: 700; font-family: var(--font-mono);">📞 097759 95300</a>
+          <a href="https://wa.me/919775995300" target="_blank" rel="noopener noreferrer" style="color: var(--whatsapp-green); text-decoration: none; font-size: 12.5px; font-weight: 700; font-family: var(--font-mono);">💬 WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        © 2026 THE FITNESS WORLD (LOHAR PUL). ALL RIGHTS RESERVED. CN129, THAKDARI RD, NEAR LOHA PUL, ACTION AREA I, NEWTOWN, KOLKATA 700102.
+      </div>
+    </div>
+  </footer>
+
+  <!-- PERSISTENT FLOATING ACTIONS - POSITIONED CLEANLY WITH PROPER RIGHT/BOTTOM INSETS -->
+  <div class="floating-actions-container">
+    <a href="tel:09775995300" class="float-btn-call" aria-label="Call Gym">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+    </a>
+    <a href="https://wa.me/919775995300?text=Hi%20The%20Fitness%20World%2C%20I%20want%20to%20inquire%20about%20gym%20membership." target="_blank" rel="noopener noreferrer" class="float-btn-whatsapp" aria-label="Chat on WhatsApp">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.199.534 1.286.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.449.741.964 1.2 1.049.934 1.222.981 1.411 1.077.188.096.299.083.41-.044.111-.127.476-.554.604-.744.127-.19.256-.159.431-.094.175.065 1.111.524 1.303.62.192.096.32.144.367.224.046.08.046.463-.098.868z"/>
+      </svg>
+    </a>
+  </div>
+
+</div>
+
+<!-- LIGHTBOX MODAL -->
+<div class="lightbox-modal" id="lightbox-modal" onclick="closeLightbox()">
+  <button class="lightbox-close" aria-label="Close Lightbox">&times;</button>
+  <img src="" alt="Enlarged Facility Preview" class="lightbox-img" id="lightbox-img">
+</div>
+
+<!-- 1-DAY FREE TRIAL MODAL -->
+<div class="modal-overlay" id="trial-modal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('trial-modal')" aria-label="Close modal">&times;</button>
+    <div style="color: var(--accent-red); font-size: 10.5px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 4px; font-family: var(--font-mono); text-align: center;">
+      // EXCLUSIVE TRIAL PASS
+    </div>
+    <h3 class="modal-title" style="text-align: center;">CLAIM 1-DAY FREE PASS</h3>
+    <p class="modal-sub" style="text-align: center;">Experience The Fitness World (Lohar Pul, Newtown) with zero commitment. Free workout access + personal body assessment.</p>
+
+    <form id="trial-pass-form">
+      <div class="form-group">
+        <label for="trial-name">Your Full Name</label>
+        <input type="text" id="trial-name" class="form-input" placeholder="e.g. Rahul Sharma" required>
+      </div>
+
+      <div class="form-group">
+        <label for="trial-phone">WhatsApp / Phone Number</label>
+        <input type="tel" id="trial-phone" class="form-input" placeholder="e.g. 9876543210" required>
+      </div>
+
+      <div class="form-group">
+        <label for="trial-goal">Primary Fitness Goal</label>
+        <select id="trial-goal" class="form-select">
+          <option value="Muscle Building & Strength">Muscle Building &amp; Strength</option>
+          <option value="Fat Loss & Weight Management">Fat Loss &amp; Weight Management</option>
+          <option value="CrossFit & Functional Stamina">CrossFit &amp; Functional Stamina</option>
+          <option value="Zumba / Aerobics / Dance Fitness">Zumba / Aerobics / Dance Fitness</option>
+          <option value="Kickboxing & Combat Conditioning">Kickboxing &amp; Combat Conditioning</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="trial-time">Preferred Time Slot</label>
+        <select id="trial-time" class="form-select">
+          <option value="Morning (6:00 AM – 10:00 AM)">Morning (6:00 AM – 10:00 AM)</option>
+          <option value="Afternoon (11:00 AM – 4:00 PM)">Afternoon (11:00 AM – 4:00 PM)</option>
+          <option value="Evening (5:00 PM – 9:30 PM)">Evening (5:00 PM – 9:30 PM)</option>
+          <option value="Night / Late 24/7 (10:00 PM onwards)">Night / Late 24/7 (10:00 PM onwards)</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn-hero-primary" style="width: 100%; justify-content: center; margin-top: 6px;">
+        <span>Confirm Free Pass on WhatsApp ↗</span>
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- TOAST CONTAINER -->
+<div class="toast-container" id="toast-container"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
